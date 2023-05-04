@@ -3,9 +3,6 @@ const dotenv = require("dotenv");
 const logger = require("pino")();
 const mongoose = require("mongoose");
 const cors = require("cors");
-const eventModel = require('./models/eventsModel')
-const loanModel=require('./models/LoansModel')
-const RegistereventModel=require('./models/RegistereventModel')
 const expressSession = require("express-session");
 
 // Import routes to here
